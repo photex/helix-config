@@ -51,17 +51,17 @@
 "markup.quote" = { fg = "teal_text", bg = "teal_bg" }
 "markup.list" = { fg = "purple_text", bg = "purple_bg" }
 
-"ui.background" = { fg = "base1", bg = "base7" }
+"ui.background" = { fg = "base1" }
 "ui.cursorline" = { bg = "base6" }
 "ui.cursor" = { fg = "base1", bg = "base7", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "base1", bg = "base7", modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "base5", bg = "base3", modifiers = ["reversed"] }
-"ui.selection" = { bg = "base4" }
-"ui.selection.primary" = { fg = "base6", bg = "base2" }
+"ui.selection" = { bg = "purple_bg" }
+"ui.selection.primary" = { bg = "blue_bg" }
 
 "ui.virtual" = { fg = "base5", bg = "base6" }
 "ui.virtual.whitespace" = { fg = "base5" }
-"ui.virtual.ruler" = { bg = "base6" }
+"ui.virtual.ruler" = { bg = "#eeeeee" }
 # Invalid modifier: "normal". See 'https://github.com/helix-editor/helix/issues/5709'
 # "ui.virtual.inlay-hint" = { fg = "base4", modifiers = ["normal"] }
 # "ui.virtual.inlay-hint.parameter" = { fg = "base3", modifiers = ["normal"] }
