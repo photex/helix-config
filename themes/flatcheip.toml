@@ -2,15 +2,15 @@
 # Adopted from https://github.com/biletskyy/flatwhite-syntax
 
 "attribute" = { fg = "blue_text" }
-"comment" = { fg = "base3" }
+"comment" = { fg = "comments" }
 "comment.line" = {}
-"comment.line.documentation" = { fg = "base2" }
+"comment.line.documentation" = { fg = "comments" }
 "comment.block" = {}
-"comment.block.documentation" = { fg = "base2" }
+"comment.block.documentation" = { fg = "comments" }
 "constant" = { fg = "blue_text" }
 "constructor" = { fg = "base1" }
 "function" = { fg = "base1", modifiers = ["bold"] }
-"keyword" = { fg = "purple_text", modifiers = ["bold"] }
+"keyword" = { fg = "#725a72", modifiers = ["bold"] }
 "label" = { modifiers = ["bold"] }
 "namespace" = { fg = "teal_text" }
 "operator" = { fg = "base1" }
@@ -61,7 +61,7 @@
 
 "ui.virtual" = { fg = "base5", bg = "base6" }
 "ui.virtual.whitespace" = { fg = "base5" }
-"ui.virtual.ruler" = { bg = "#eeeeee" }
+"ui.virtual.ruler" = { bg = "#f9f9f9" }
 # Invalid modifier: "normal". See 'https://github.com/helix-editor/helix/issues/5709'
 # "ui.virtual.inlay-hint" = { fg = "base4", modifiers = ["normal"] }
 # "ui.virtual.inlay-hint.parameter" = { fg = "base3", modifiers = ["normal"] }
@@ -97,7 +97,7 @@
 "diff.minus" = { fg = "diff_delete" }
 
 [palette]
-base1 = "#605a52"
+base1 = "#45403b"
 base2 = "#93836c"
 base3 = "#b9a992"
 base4 = "#dcd3c6"
@@ -126,3 +126,5 @@ diff_change_dark = "#795306"
 diff_delete = "#ff1414"
 diff_renamed = "#52aeff"
 white = "#ffffff"
+comments = "#627684"
+keywords = "#725a72"
